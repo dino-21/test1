@@ -1,0 +1,693 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GROGGERY Restaurant</title>
+    <link rel="stylesheet" href="css/main599.css">
+    <link rel="stylesheet" href="css/main600.css">
+    <link rel="stylesheet" href="css/main800.css">
+    <link rel="stylesheet" href="css/main1100.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,577&family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,577&family=Pacifico&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/maps.js"></script>
+    <script src="js/slidetext.js"></script>
+    <script src="js/slideclick.js"></script>
+
+
+
+</head>
+
+<body onload="initialize()">
+    <div id="wrap">
+        <header>
+            <div class="navlogobox">
+                <div class="small">
+                    <div class="logo">
+                        <h3>Groggery</h3>
+                    </div>
+                    <img src="img/main/whiteham.png" alt="" class="a">
+                </div>
+                <nav class="b">
+                    <ul>
+                        <li class="c1"><a href="#" class="active">HOME <span>∨</span></a></li>
+                        <li><a href="sub.html" target="_self">ABOUT</a></li>
+                        <li><a href="#">MENU <span>∨</span></a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">EVENTS</a></li>
+                        <li><a href="#">BLOG <span>∨</span></a></li>
+                        <li><a href="#">RESERVATION</a></li>
+                        <li><a href="#">CONTACTS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <div id="slider">
+            <div class="sbox">
+                <h1>GROGGERY</h1>
+                <span>Bar＆Restaurant</span>
+                <p>Enjoy the best food and dinks with your friends in Groggery</p>
+            </div>
+        </div>
+
+        <section>
+            <div class="sectionpart1">
+                <div class="bgbox1">
+                    <h3>- OUR STORY -</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sint est quidem excepturirem officia fugit quia maxime explicabo nisi numquam, recusandae quisquam iste earum.</p>
+            </div>
+            <div class="sectionpart2box">
+                <div class="sectionpart2"><img src="img/main/about_1.jpg" alt=""></div>
+                <div class="sectionpart2">
+                    <h3>Traditions</h3>
+                    <p>Service ipsum dolor sit amet, consectetur adipisicing elit. Nulla dolore voluptatem, ipsum, totam molestias accusantium explicabo velit aliquid impedit, reprehenderit libero voluptatum ipsa quae ad! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum atque debitis commodi architecto. Nulla dolore voluptatem. Eum atque debitis commodi architecto. Totam molestias accusantium explicabo velit aliquid impedit.</p>
+                </div>
+                <div class="sectionpart2">
+                    <h3>Professional service</h3>
+                    <p>Roles ipsum dolor sit amet, consectetur adipisicing elit. Nulla dolore voluptatem, ipsum, totam molestias accusantium explicabo velit aliquid impedit, reprehenderit libero voluptatum ipsa quae ad! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum atque debitis commodi architecto. Groggery ipsum dolor sit amet, consectetur adipisicing elit. Soluta modi esse accusantium sit velit cupiditate minima ipsam ex!</p>
+                </div>
+                <div class="sectionpart2"><img src="img/main/about_2.jpg" alt=""></div>
+                <div class="sectionpart2"><img src="img/main/about_3.jpeg" alt=""></div>
+                <div class="sectionpart2">
+                    <h3>History</h3>
+                    <p>Blanditiis quidem fugit atque facilis numquam et, minus, iusto pariatur. Laborum commodi consectetur dolor, unde quo nemo molestias provident reprehenderit iure quas ipsam quasi cupiditate, doloribus, consequuntur ea facere dolores impedit dolore blanditiis neque explicabo odio! Labore eveniet sapiente impedit asperiores architecto. Vero quia, quidem aliquam eveniet maiores expedita minima corporis assumenda accusamus at laborum.</p>
+                </div>
+            </div>
+            <div class="sectionpart3">
+                <div class="s3bg">
+                    <h3>− OUR TEAM −</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sint est quidem excepturirem officia fugit quia maxime explicabo nisi numquam, recusandae quisquam iste earum.</p>
+
+                <div class="part3box">
+                    <div class="part3box1">
+                        <div class="teamphoto"><img src="img/main/team_photo_1.jpg" alt=""><span>John Doe</span></div>
+                    </div>
+                    <div class="part3box1">
+                        <div class="teamphoto"><img src="img/main/team_photo_2.jpg" alt=""><span>Jane Doe</span></div>
+                    </div>
+                    <div class="part3box1">
+                        <div class="teamphoto"><img src="img/main/team_photo_3.jpg" alt=""><span>John Doe</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="sectionpart4">
+                <div class="bgbox2">
+                    <h3>− MENU −</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit mollitia, temporibus aliquid quae,repellendus eaque? Illo harum omnis sed debitis ratione dolor.</p>
+                <div class="menu">
+                    <ul>
+                        <li id="tab_menu1" class="port_back">BREAKFAST</li>
+                        <li id="tab_menu2">LUNCH</li>
+                        <li id="tab_menu3">DINNER</li>
+                        <li id="tab_menu4">DRINKS</li>
+                        <li id="tab_menu5">DESSERTS</li>
+                    </ul>
+                    <div class="tab_list">
+                        <div class="tab_sub1">
+                            <div class="menubox">
+                                <div class="breakfastmenu1">
+                                    <img src="img/main/breakfast_1.jpg" alt="">
+                                    <div class="menutext">
+                                        <span>LOREM IPSUM</span>
+                                        <h5>$6.5</h5>
+                                    </div>
+                                </div>
+                                <div class="breakfastmenu2">
+                                    <img src="img/main/breakfast_3.jpg" alt="">
+                                    <div class="menutext">
+                                        <span>LOREM IPSUM</span>
+                                        <h5>$7.5</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menubox">
+                                <div class="breakfastmenu3">
+                                    <img src="img/main/breakfast_2.jpg" alt="">
+                                    <div class="menutext">
+                                        <span>LOREM IPSUM</span>
+                                        <h5>$10</h5>
+                                    </div>
+                                </div>
+                                <div class="breakfastmenu4">
+                                    <img src="img/main/breakfast_5.jpg" alt="">
+                                    <div class="menutext">
+                                        <span>LOREM IPSUM</span>
+                                        <h5>$5.5</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menubox">
+                                <div class="breakfastmenu5">
+                                    <img src="img/main/breakfast_4.jpg" alt="">
+                                    <div class="menutext">
+                                        <span>LOREM IPSUM</span>
+                                        <h5>$8</h5>
+                                    </div>
+                                </div>
+                                <div class="breakfastmenu6">
+                                    <img src="img/main/breakfast_6.jpg" alt="">
+                                    <div class="menutext">
+                                        <span>LOREM IPSUM</span>
+                                        <h5>$8</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_sub2">
+                            <div class="flexbox">
+                                <div class="menubox">
+                                    <div class="lunchmenu1">
+                                        <img src="img/main/lunch_1.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$15</h5>
+                                        </div>
+                                    </div>
+                                    <div class="lunchmenu2">
+                                        <img src="img/main/lunch_5.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$9.5</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menubox">
+                                    <div class="lunchmenu3">
+                                        <img src="img/main/lunch_2.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$8.5</h5>
+                                        </div>
+                                    </div>
+                                    <div class="lunchmenu4">
+                                        <img src="img/main/lunch_6.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$12</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menubox">
+                                    <div class="lunchmenu5">
+                                        <img src="img/main/lunch_3.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$13.5</h5>
+                                        </div>
+                                    </div>
+                                    <div class="lunchmenu6">
+                                        <img src="img/main/lunch_4.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$7.8</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_sub3">
+                            <div class="flexbox">
+                                <div class="menubox">
+                                    <div class="dinnermenu1">
+                                        <img src="img/main/dinner_1.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$14</h5>
+                                        </div>
+                                    </div>
+                                    <div class="dinnermenu2">
+                                        <img src="img/main/dinner_5.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$21</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menubox">
+                                    <div class="dinnermenu3">
+                                        <img src="img/main/dinner_2.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$11.5</h5>
+                                        </div><img src="img/main/" alt="">
+                                    </div>
+                                    <div class="dinnermenu4">
+                                        <img src="img/main/dinner_4.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$13</h5>
+                                        </div>
+                                    </div>
+                                    <div class="dinnermenu4">
+                                        <img src="img/main/dinner_6.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$19</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menubox">
+                                    <div class="dinnermenu5">
+                                        <img src="img/main/dinner_3.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$10.5</h5>
+                                        </div>
+                                    </div>
+                                    <div class="dinnermenu6">
+                                        <img src="img/main/dinner_7.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$17</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_sub4">
+                            <div class="flexbox">
+                                <div class="menubox">
+                                    <div class="drinkmenu1">
+                                        <img src="img/main/drinks_1.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$6</h5>
+                                        </div>
+                                    </div>
+                                    <div class="drinkmenu2">
+                                        <img src="img/main/drinks_7.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$15</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menubox">
+                                    <div class="drinkmenu3">
+                                        <img src="img/main/drinks_2.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$7</h5>
+                                        </div>
+                                    </div>
+                                    <div class="drinkmenu4">
+                                        <img src="img/main/drinks_4.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$18</h5>
+                                        </div>
+                                    </div>
+                                    <div class="drinkmenu4">
+                                        <img src="img/main/drinks_6.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$12</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menubox">
+                                    <div class="drinkmenu5">
+                                        <img src="img/main/drinks_3.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$4</h5>
+                                        </div>
+                                    </div>
+                                    <div class="drinkmenu6">
+                                        <img src="img/main/drinks_5.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$11</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab_sub5">
+                            <div class="flexbox">
+                                <div class="menubox">
+                                    <div class="dessertmenu1">
+                                        <img src="img/main/desserts_1.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$11</h5>
+                                        </div>
+                                    </div>
+                                    <div class="dessertmenu2">
+                                        <img src="img/main/desserts_4.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$8</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menubox">
+                                    <div class="dessertmenu3">
+                                        <img src="img/main/desserts_2.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$10</h5>
+                                        </div>
+                                    </div>
+                                    <div class="dessertmenu4">
+                                        <img src="img/main/desserts_6.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$12</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menubox">
+                                    <div class="dessertmenu5">
+                                        <img src="img/main/desserts_3.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$7.5</h5>
+                                        </div>
+                                    </div>
+                                    <div class="dessertmenu6">
+                                        <img src="img/main/desserts_5.jpg" alt="">
+                                        <div class="menutext">
+                                            <span>LOREM IPSUM</span>
+                                            <h5>$5</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sectionpart5">
+                <div class="gbox">
+                    <h3>− Groggery −</h3>
+                    <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. UT, CUMQUE, QUIA. LABORIOSAM EVENIET SUSCIPIT<br>OBCAECATI CORRUPTI QUAM.</p>
+                </div>
+            </div>
+            <div class="sectionpart6">
+                <div class="bgbox3">
+                    <h3>− GALLERY −</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam iure, quos maxime amet nostrum<br>reiciendis, provident quisquam nulla!</p>
+            </div>
+            <div class="sectionpart7">
+                <div class="s7box">
+                    <div class="gallerybox">
+                        <div class="gallerymenu1">
+                            <img src="img/main/gallery_1.jpg" alt="">
+                        </div>
+                        <div class="gallerymenu1">
+                            <img src="img/main/gallery_4.jpg" alt="">
+                        </div>
+                        <div class="gallerymenu1">
+                            <img src="img/main/gallery_6.jpg" alt="">
+                        </div>
+                        <div class="gallerymenu1">
+                            <img src="img/main/gallery_9.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="gallerybox">
+                        <div class="gallerymenu2">
+                            <img src="img/main/gallery_2.jpg" alt="">
+                        </div>
+                        <div class="gallerymenu2">
+                            <img src="img/main/gallery_8.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="gallerybox">
+                        <div class="gallerymenu1">
+                            <img src="img/main/gallery_3.jpg" alt="">
+                        </div>
+                        <div class="gallerymenu1">
+                            <img src="img/main/gallery_5.jpg" alt="">
+                        </div>
+                        <div class="gallerymenu1">
+                            <img src="img/main/gallery_7.jpg" alt="">
+                        </div>
+                        <div class="gallerymenu1">
+                            <img src="img/main/gallery_10.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sectionpart8">
+                <div class="s8box">
+                    <h3>A few words about us...</h3>
+                    <div id="slidewrap">
+                        <ul class="slide">
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque eveniet, aut enim quasi eaque repellendus hic, provident tempora sint nulla totam quo nemo velit labore magnam quaerat molestias ad veritatis voluptatibus nobis molestiae illum!<span>− Franz Kafka −</span></p>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque eveniet, aut enim quasi eaque repellendus hic, provident tempora sint nulla totam quo nemo velit labore magnam quaerat molestias ad veritatis voluptatibus nobis molestiae illum!<span>− Ernest Hemingway −</span></p>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque eveniet, aut enim quasi eaque repellendus hic, provident tempora sint nulla totam quo nemo velit labore magnam quaerat molestias ad veritatis voluptatibus nobis molestiae illum!<span>− Pablo Picasso −</span></p>
+                            </li>
+                        </ul>
+                        <span class="prev">&lt;</span>
+                        <span class="next">&gt;</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sectionpart9">
+                <div class="bgbox4">
+                    <h3>− EVENTS −</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, assumenda vitae earum<br>voluptatibus.</p>
+            </div>
+            <div class="sectionpart10">
+                <div class="s10box">
+                    <img src="img/main/event_1.jpg" alt="">
+                    <div class="s10text">
+                        <span>Jazz</span>
+                    </div>
+                </div>
+                <div class="s10box">
+                    <img src="img/main/event_2.jpg" alt="">
+                    <div class="s10text">
+                        <span>Concert</span>
+                    </div>
+                </div>
+                <div class="s10box">
+                    <img src="img/main/event_3.jpg" alt="">
+                    <div class="s10text">
+                        <span>Poetry</span>
+                    </div>
+                </div>
+                <div class="s10box">
+                    <img src="img/main/event_4.jpg" alt="">
+                    <div class="s10text">
+                        <span>Wine</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sectionpart11">
+                <div class="s11imgbox"><img src="img/main/talk.jpg" alt=""></div>
+                <p>wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which<br>enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for<br>the bliss of souls like mine.</p>
+                <span>- by Thomas Ford -</span>
+            </div>
+            <div class="sectionpart12">
+                <div class="bgbox5">
+                    <h3>− BLOG −</h3>
+                </div>
+                <p>Read about our latest news, events and much more about life of our friendly family</p>
+            </div>
+            <div class="sectionpart13">
+                <div class="s13box">
+                    <div class="s13img">
+                        <img src="img/main/gallery_1.jpg" alt="">
+                    </div>
+                    <div class="s13text">
+                        <h3>How to serve a table</h3>
+                        <span class="person">by John Doe</span>
+                        <span class="message">5 Comments</span>
+                        <span class="calendar">2 hours ago</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit. Non quis quia laudantium<br>accusantium, sint, perspiciatis magni illum<br>deserunt mollitia quaerat doloribus deleniti<br>incidunt consequuntur earum fuga dolorum<br>consequatur corrupti adipisci.</p>
+                        <h5 class="yellow">#table,</h5>
+                        <h5>#food,</h5>
+                        <h5>#groggery</h5>
+                    </div>
+                </div>
+                <div class="s13box">
+                    <div class="s13img">
+                        <img src="img/main/gallery_3.jpg" alt="">
+                    </div>
+                    <div class="s13text">
+                        <h3>Features of Spanish wine</h3>
+                        <span class="person">by John Doe</span>
+                        <span class="message">5 Comments</span>
+                        <span class="calendar">2 hours ago</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit. Non quis quia laudantium<br>accusantium, sint, perspiciatis magni illum<br>deserunt mollitia quaerat doloribus deleniti<br>incidunt consequuntur earum fuga dolorum<br>consequatur corrupti adipisci.</p>
+                        <h5 class="yellow">#cook,</h5>
+                        <h5>#recipe,</h5>
+                        <h5>#groggery</h5>
+                    </div>
+                </div>
+                <div class="s13box">
+                    <div class="s13img">
+                        <img src="img/main/gallery_5.jpg" alt="">
+                    </div>
+                    <div class="s13text">
+                        <h3>Interior and design</h3>
+                        <span class="person">by John Doe</span>
+                        <span class="message">7 Comments</span>
+                        <span class="calendar">5 hours ago</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit. Non quis quia laudantium<br>accusantium, sint, perspiciatis magni illum<br>deserunt mollitia quaerat doloribus deleniti<br>incidunt consequuntur earum fuga dolorum<br>consequatur corrupti adipisci.</p>
+                        <h5 class="yellow">#bar,</h5>
+                        <h5>#cafe,</h5>
+                        <h5>#groggery</h5>
+                    </div>
+                </div>
+                <div class="s13box">
+                    <div class="s13img">
+                        <img src="img/main/gallery_4.jpg" alt="">
+                    </div>
+                    <div class="s13text">
+                        <h3>Cafe as a house</h3>
+                        <span class="person">by John Doe</span>
+                        <span class="message">10 Comments</span>
+                        <span class="calendar s3">12 hours ago</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit. Non quis quia laudantium<br>accusantium, sint, perspiciatis magni illum<br>deserunt mollitia quaerat doloribus deleniti<br>incidunt consequuntur earum fuga dolorum<br>consequatur corrupti adipisci.</p>
+                        <h5 class="yellow">#table,</h5>
+                        <h5>#food,</h5>
+                        <h5>#groggery</h5>
+                    </div>
+                </div>
+                <div class="s13box">
+                    <div class="s13img">
+                        <img src="img/main/gallery_10.jpg" alt="">
+                    </div>
+                    <div class="s13text">
+                        <h3>Our food traditions</h3>
+                        <span class="person">by John Doe</span>
+                        <span class="message">5 Comments</span>
+                        <span class="calendar">2 hours ago</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit. Non quis quia laudantium<br>accusantium, sint, perspiciatis magni illum<br>deserunt mollitia quaerat doloribus deleniti<br>incidunt consequuntur earum fuga dolorum<br>consequatur corrupti adipisci.</p>
+                        <h5 class="yellow">#cook,</h5>
+                        <h5>#recipe,</h5>
+                        <h5>#groggery</h5>
+                    </div>
+                </div>
+                <div class="s13box">
+                    <div class="s13img">
+                        <img src="img/main/gallery_7.jpg" alt="">
+                    </div>
+                    <div class="s13text">
+                        <h3>Let's cook together!</h3>
+                        <span class="person">by John Doe</span>
+                        <span class="message">2 Comments</span>
+                        <span class="calendar">7 hours ago</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit. Non quis quia laudantium<br>accusantium, sint, perspiciatis magni illum<br>deserunt mollitia quaerat doloribus deleniti<br>incidunt consequuntur earum fuga dolorum<br>consequatur corrupti adipisci.</p>
+                        <h5 class="yellow">#bar,</h5>
+                        <h5>#cafe,</h5>
+                        <h5>#groggery</h5>
+                    </div>
+                </div>
+                <button>MORE POSTS</button>
+            </div>
+            <div class="sectionpart14">
+                <div class="s14box">
+                    <p>Subscribe for our</p>
+                    <span>Newsletter</span>
+                </div>
+                <input type="email" required placeholder="email address">
+                <button>SUBSCRIBE</button>
+            </div>
+            <div class="sectionpart15">
+                <img src="img/main/reservation.jpg" alt="">
+                <div class="s15box">
+                    <div class="rereservation">
+                        <div class="rsbg">
+                            <h3>ONLINE RESERVATION</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="reservetable">
+                        <input type="text" required placeholder="Full Name" class="t1">
+                        <select class="t1">
+                            <option value="1person">1 person</option>
+                            <option value="2person">2 person</option>
+                            <option value="3person">3 person</option>
+                            <option value="4person">4 person</option>
+                            <option value="5person">5 person</option>
+                            <option value="6person">6 person</option>
+                        </select>
+                        <input type="text" required placeholder="Phone Number" class="t1">
+                        <input type="date" value="2020-12-17" class="t1">
+                        <input type="text" required placeholder="Your e-mail" class="t1">
+                        <input type="time" value="13:20" min="13:00" max="15:00" class="t1">
+                        <button>RESERVA A TABLE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sectionpart16">
+                <div class="s16box">
+                    <h3>FIND US ON THE MAP</h3>
+                    <p>10987 1st Avenue, Lorem City, CA</p>
+                </div>
+            </div>
+            <div id="map_view"></div>
+        </section>
+        <footer>
+            <div class="f1box">
+                <h3>Contacts</h3>
+                <p><img src="img/main/ficon1.png" alt="">10987 1st Avenue, Lorem City, CA</p>
+                <p><img src="img/main/ficon2.png" alt="">+1 789 123 45 44</p>
+                <p><img src="img/main/ficon3.png" alt="">admin@groggery.com</p>
+            </div>
+            <div class="f1box">
+                <h3>Follow us</h3>
+                <p>Download our app:</p>
+                <p>+1 789 123 45 44</p>
+                <img src="img/main/ficon4.png" alt="">
+                <img src="img/main/ficon5.png" alt="">
+                <img src="img/main/ficon6.png" alt="">
+                <p>Social:
+                    <img src="img/main/ficon7.png" alt="">
+                    <img src="img/main/ficon8.png" alt="">
+                    <img src="img/main/ficon9.png" alt="">
+                    <img src="img/main/ficon10.png" alt="">
+                </p>
+            </div>
+            <div class="f1box">
+                <h3>Opening hours</h3>
+                <p><span>Mon: </span>3PM - 9PM</p>
+                <p><span>Tue-Fri: </span>11AM - 12PM</p>
+                <p><span>Sat-Sun: </span>9AM - 12PM</p>
+            </div>
+            <div class="f1box">
+                <h3>Support</h3>
+                <p>Help ＆ Support</p>
+                <p>Privacy Policy</p>
+                <p>Terms ＆ Conditions</p>
+            </div>
+            <div class="f2box">
+                <p>© 2020 MDH Groggery. All rights reserved.</p>
+            </div>
+            <button>↑</button>
+        </footer>
+    </div>
+</body>
+
+
+</html>
